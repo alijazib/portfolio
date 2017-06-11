@@ -1,0 +1,239 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: 	#737373;
+	line-height: 2;
+
+}
+
+body,div,article,aside,nav,header,footer {
+	display: block;
+}
+
+p {
+	text-align: left;
+}
+
+body {
+	
+	/*min-width: 500px;*/
+	font-family: 'Roboto', sans-serif;
+	color: ;
+	text-align: center;
+}
+#bar {
+	visibility: hidden;
+}
+
+nav {
+	background-color:#262626 ;
+}
+ li {
+	list-style: none; 
+	text-decoration: none;
+	}
+
+/*nav ul{
+	
+	top: 0;
+	left: 0;
+	right: 0;
+}*/
+
+li a {
+	color:#E6E6FA;
+}
+li a:hover{
+	text-decoration: none;
+}
+
+#h:hover {
+	font-size: 125%;
+	border:1px solid black;
+	border-radius: 6px;
+	padding: 10px;
+	transition: font-size 1s,border 1s;
+	color: white;
+	background-color: #0d0d0d;
+
+}
+#a:hover {
+	font-size: 125%;
+	border:1px solid black;
+	border-radius: 6px;
+	padding: 10px;
+	transition: font-size 1s,border 1s;
+	color: white;
+	background-color: #0d0d0d;
+}
+
+#p:hover {
+	font-size: 125%;
+	border:1px solid black;
+	border-radius: 6px;
+	padding: 10px;
+	transition: font-size 1s,border 1s;
+	color: white;
+	background-color: #0d0d0d;
+}
+
+#c:hover {
+	font-size: 125%;
+	border:1px solid black;
+	border-radius: 6px;
+	padding: 10px;
+	transition: font-size 1s,border 1s;
+	color: white;
+	background-color: #0d0d0d;
+}
+
+#home {
+	padding: 20%;
+	background: url('img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#plogo {
+	border:0px solid black;
+	border-radius: 4px;
+	text-align: center;
+	margin: 0 25%;
+	padding: 2% 0;
+	background-color: #262626;
+	color:white;
+}
+
+#about-me {
+	padding: 5%;
+	background-color:#fff ;
+	margin-right: -20px;
+}
+#about-me-img {
+	padding: 3% 3% 3% 3%;
+	opacity: .81;
+	border:0px solid black;
+	border-radius: 10%;
+}
+
+#about-me-img-div {
+	padding: 3% 3% 3% 3%;
+	
+	
+}
+#wdbar {
+
+	background-color: #4d4d4d;
+}
+.wdbar2{
+	background-color: #f2f2f2;
+}
+
+/***************ABOUT ME ENDED***********/
+/***************PORTFOLIO start***************/
+#portfolio {
+	background: url('img/port.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#portlogo {
+	font-size: 300%;
+	text-align: center;
+	padding: 15%;
+	clear: both;
+}
+
+#row_wrapper {
+	padding:5% 10%;
+
+}
+div .i{
+	padding-top:3%;
+	border-radius: 8px;
+	background-color: #f2f2f2;
+}
+div .i:hover {
+	transition: padding 1s;
+	padding: 5%;
+}
+
+#port-btn {
+	margin:10%;
+	padding: 2%  5%;
+	}
+
+/*************PORTFOLIO OVER****************/
+#contact {
+	background : url('img/contact.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+#co-logo {
+	font-size: 300%;
+	text-align: center;
+	padding: 10% 0 ;
+	clear: both; 
+	}
+
+#co-desc {
+	padding: 10%;
+}
+#mail {
+	font-size: 200%;}
+#map {
+        height: 400px;
+        width: 100%;
+       }
+
+/****CON7TACT OVER**************/
+@media only screen and (max-width: 994px) {
+	nav ul{
+		visibility: hidden;
+
+
+	}
+
+	#h{ margin:0 ;
+		
+		background-color:#262626;
+		padding: 2% 20px 2% 2% ;
+	}#a{ margin: 0;
+		background-color:#262626;
+		padding: 2% 25px 2% 2% ;
+	}#p{ margin: 0;
+		background-color:#262626;
+		padding: 2% 0px 2% 2% ;
+	}#c{ margin: 0;
+		background-color:#262626;
+		padding: 2% 14px 2% 2% ;
+	}
+
+	#bar {
+		visibility: visible;
+	}
+	#header {
+		text-align: left;
+		height: 50px;
+	}
+	
+	p#mail {
+		font-size: 150%;
+	}
+	#portlogo {
+		font-size: 200%;
+	}
+
+}
+
+@media only screen and (min-width:995px )
+{
+	#bar {
+		visibility: hidden;
+	}
+}
+
