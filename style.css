@@ -90,7 +90,7 @@ li a:hover{
 
 #home {
 	padding: 20%;
-	background: url('img/bg.jpg');
+	background: url('https://scontent.fccu2-1.fna.fbcdn.net/v/t1.0-9/1454632_10202775633017334_49048356_n.jpg?oh=2640ea386632b7e9eab94fff23a5bf18&oe=59E2AFD6');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -133,7 +133,7 @@ li a:hover{
 /***************ABOUT ME ENDED***********/
 /***************PORTFOLIO start***************/
 #portfolio {
-	background: url('img/port.png');
+	background: url('http://www.unwexaminer.com/wp-content/uploads/2016/11/iStock_000042165780Medium.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -153,10 +153,44 @@ div .i{
 	padding-top:3%;
 	border-radius: 8px;
 	background-color: #f2f2f2;
+
 }
 div .i:hover {
 	transition: padding 1s;
 	padding: 5%;
+}
+
+.myModal {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	z-index: 1;
+
+}
+
+#modal-content {
+	margin: 5% 20%;
+	border: 1px solid black;
+	
+	width: 60%;
+
+
+}
+
+ .clos {
+ 	
+	float: right;
+    font-size: 50px;
+    color: #aaa;
+    font-weight: bold;
+}
+.clos:hover {
+	cursor: pointer;
+	color: black;
 }
 
 #port-btn {
@@ -166,13 +200,17 @@ div .i:hover {
 
 /*************PORTFOLIO OVER****************/
 #contact {
-	background : url('img/contact.jpeg');
+	background : url('http://www.tkw.de/uploads/pics/callback_b.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-color: black;
 
 }
 
+.blur-bg {
+	background-color: rgba(255,255,255,0.3);
+}
 #co-logo {
 	font-size: 300%;
 	text-align: center;
@@ -222,7 +260,7 @@ div .i:hover {
 	}
 	
 	p#mail {
-		font-size: 150%;
+		font-size: 130%;
 	}
 	#portlogo {
 		font-size: 200%;
